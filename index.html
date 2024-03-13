@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- BootStrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-transparent p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-house fa-2x text-light"></i>
+            <span class="fs-1 text-light"><b>Landing Page</b></span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid mt-5">
+      <h2>Welcome to our <span class="text-primary">website</span></h2>
+      <p class="mt-4 fs-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+        aspernatur enim, maiores dolore recusandae, ducimus minima tempora
+        voluptate nulla quasi harum aliquid esse quibusdam pariatur nemo
+        sapiente laborum fugit quae!Lorem Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Similique, voluptatibus. Numquam odio reiciendis sit
+        dolor delectus quos enim ducimus adipisci voluptatem eum ipsam quam
+        deserunt, aliquid minima culpa nostrum veniam. Lorem ipsum, dolor sit
+        amet consectetur adipisicing elit. Alias repudiandae saepe laborum modi
+        repellendus nobis totam dolor voluptas neque voluptatem illum reiciendis
+        aliquam facilis provident, nulla, animi quaerat eum perspiciatis!
+      </p>
+      <div class="row mt-5">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <img
+            src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDZ0NnppOTJxNDN2NDM2ZDVicjllZHdnc3V0enQzOGQ1dmNhYmR0aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jF1oqkXJL0Mda/giphy.gif"
+            alt=""
+            class="w-100"
+            height="85%"
+          />
+        </div>
+        <div class="col-md-5">
+          <form class="border p-3 shadow rounded">
+            <h3 class="text-primary text-center">Login</h3>
+            <input
+              type="text"
+              placeholder="Enter Username"
+              class="form-control mt-5"
+              id="loginUser"
+            />
+            <input
+              type="password"
+              placeholder="Enter Password"
+              class="form-control mt-4"
+              id="loginPswd"
+            />
+            <div class="mt-2">
+              <button
+                class="btn btn-primary w-25 me-4"
+                type="button"
+                onclick="obj.login()"
+              >
+                Sign in
+              </button>
+              <span
+                >Are you a new User? Click here to
+                <a href="./register.html">Register</a></span
+              >
+            </div>
+          </form>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./logic.js"></script>
+</html>

@@ -1,0 +1,9 @@
+header {
+  height: 45vh;
+  background-image: url("https://iticollege.edu/wp-content/uploads/2021/10/Information-Technology-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  background-image: linear-gradient(to right, white, rgb(189, 189, 241));
+}
